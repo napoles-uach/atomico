@@ -22,17 +22,17 @@ Uso: conf_electronica(string)
 '''
 
 def info_elemento(simbolo):
+  '''
+  Funcion para escribir informacion sobre un elemento quimico.
+  Regresa
+  -Numero atomico
+  -Simbolo
+  -Peso atomico
+  -Configuracion electronica
+'''
   print('Numero Atomico = '+ str(numero_atomico(simbolo)))
   print('Simbolo = '+simbolo_atomico(simbolo))
   print('Peso atomico = ' + str(peso_atomico(simbolo)))
   print('Configuracion electronica = '+conf_electronica(simbolo))
 
-info_elemento.__doc__ = '''
-Funcion para escribir informacion sobre un elemento quimico.
-Regresa
--Numero atomico
--Simbolo
--Peso atomico
--Configuracion electronica
-
-'''
+#info_elemento.__doc__ = 
