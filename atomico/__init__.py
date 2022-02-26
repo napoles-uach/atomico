@@ -21,3 +21,5 @@ def info_elemento(simbolo):
   print('Simbolo = '+simbolo_atomico(simbolo))
   print('Peso atomico = ' + str(peso_atomico(simbolo)))
   print('Configuracion electronica = '+conf_electronica(simbolo))
+
+info_elemento.__doc__ = 'function to write info'
