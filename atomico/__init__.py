@@ -5,6 +5,9 @@ ptable = fetch_table('elements')
 def nombre_atomico(simbolo):
   return element(simbolo).name
 
+def estados_oxidacion(simbolo):
+  return element(simbolo).oxistates
+
 def numero_atomico(simbolo):
   '''
   regresa el numero atomico.
