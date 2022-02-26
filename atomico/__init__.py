@@ -37,8 +37,6 @@ def conf_electronica(simbolo):
   conf_el = ptable[ptable.symbol==simbolo]['electronic_configuration'].to_list()[0]
   return conf_el
 
-conf_electronica.__doc__ = 
-
 def info_elemento(simbolo):
   '''
   Funcion para escribir informacion sobre un elemento quimico.
