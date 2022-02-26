@@ -16,6 +16,11 @@ def conf_electronica(simbolo):
   conf_el = ptable[ptable.symbol==simbolo]['electronic_configuration'].to_list()[0]
   return conf_el
 
+conf_electronica.__doc__ = '''
+Regresa la configuracion electronica del elemento
+Uso: conf_electronica(string)
+'''
+
 def info_elemento(simbolo):
   print('Numero Atomico = '+ str(numero_atomico(simbolo)))
   print('Simbolo = '+simbolo_atomico(simbolo))
