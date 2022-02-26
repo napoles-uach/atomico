@@ -1,5 +1,10 @@
 from mendeleev.fetch import fetch_table
+from mendeleev import element
 ptable = fetch_table('elements')
+
+def nombre_atomico(simbolo):
+  return element(simbolo).name
+
 def numero_atomico(simbolo):
   '''
   regresa el numero atomico.
